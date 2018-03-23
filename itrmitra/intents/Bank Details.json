@@ -1,0 +1,57 @@
+{
+  "id": "6bc953ab-d94a-4952-8180-f11c676b757f",
+  "name": "Bank Details",
+  "auto": true,
+  "contexts": [
+    "TaxVerification"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "BankDetails",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Enter the bank details, in which your refund (if any) will be credited"
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "http://res.cloudinary.com/itrmitra/image/upload/v1521615933/BankDetails.png"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click \u0027Yes\u0027 to proceed....",
+          "replies": [
+            "Yes"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521704711,
+  "fallbackIntent": false,
+  "events": []
+}

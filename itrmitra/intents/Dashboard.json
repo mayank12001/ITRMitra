@@ -1,0 +1,57 @@
+{
+  "id": "4982c89e-7da2-4e44-be4c-f495bdfc79ad",
+  "name": "Dashboard",
+  "auto": true,
+  "contexts": [
+    "Login"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Dashboard",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "After login, homepage will look like this"
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "http://res.cloudinary.com/itrmitra/image/upload/v1521615933/Dashboard.png"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click \u0027Yes\u0027 to proceed....",
+          "replies": [
+            "Yes"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521700016,
+  "fallbackIntent": false,
+  "events": []
+}

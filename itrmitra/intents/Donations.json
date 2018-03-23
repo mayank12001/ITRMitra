@@ -1,0 +1,63 @@
+{
+  "id": "3b903c85-8443-40b0-af5c-42740f1025c9",
+  "name": "Donations",
+  "auto": true,
+  "contexts": [
+    "BankTdsDetails"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Donations",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Enter details of the donations you have made"
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "http://res.cloudinary.com/itrmitra/image/upload/v1521615934/Donations.png"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Click on \u0027Taxes Paid And Verification\u0027 tab in your income tax page"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click \u0027Yes\u0027 to proceed....",
+          "replies": [
+            "Yes"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521704545,
+  "fallbackIntent": false,
+  "events": []
+}

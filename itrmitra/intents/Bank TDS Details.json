@@ -1,0 +1,63 @@
+{
+  "id": "96397ca3-057f-4cde-a266-3482075025c6",
+  "name": "Bank TDS Details",
+  "auto": true,
+  "contexts": [
+    "TdsDetails"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "BankTdsDetails",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "http://res.cloudinary.com/itrmitra/image/upload/v1521615934/BankTDS.png"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Details of Tax Deducted by Banks will be shown here"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Click on \u0027Donations\u0027 tab in your income tax page"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click \u0027Yes\u0027 to proceed....",
+          "replies": [
+            "Yes"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521704604,
+  "fallbackIntent": false,
+  "events": []
+}

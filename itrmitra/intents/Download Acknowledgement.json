@@ -1,0 +1,69 @@
+{
+  "id": "9c810458-37f0-48b9-8af7-21ae2a6fcc0a",
+  "name": "Download Acknowledgement",
+  "auto": true,
+  "contexts": [
+    "eVerify"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "DownloadAck",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "http://res.cloudinary.com/itrmitra/image/upload/v1521615933/DownloadAck.png"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Download your ITR acknowledgement."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Congratulations !!!\nYou have successfully filed your ITR return."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Now you have to \u0027e-Verify\u0027 your ITR return"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click \u0027Yes\u0027 to proceed....",
+          "replies": [
+            "Yes"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521711571,
+  "fallbackIntent": false,
+  "events": []
+}

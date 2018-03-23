@@ -1,0 +1,76 @@
+{
+  "id": "83b65232-07c1-4377-9913-c76f0e28b084",
+  "name": "eFile",
+  "auto": true,
+  "contexts": [
+    "Dashboard"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "eFile",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Click on \u0027e-File\u0027 drop down menu"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Select \u0027Prepare and Submit Online ITR\u0027"
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "http://res.cloudinary.com/itrmitra/image/upload/v1521615936/eFile.png"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click \u0027Yes\u0027 to proceed....",
+          "replies": [
+            "Yes"
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Yes"
+            },
+            {
+              "title": "No"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521700490,
+  "fallbackIntent": false,
+  "events": []
+}

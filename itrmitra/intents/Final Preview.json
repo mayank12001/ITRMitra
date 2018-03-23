@@ -1,0 +1,63 @@
+{
+  "id": "a8d051be-f78e-4896-ab65-f657afd4fdeb",
+  "name": "Final Preview",
+  "auto": true,
+  "contexts": [
+    "Preview"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "FinalPreview",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "http://res.cloudinary.com/itrmitra/image/upload/v1521615933/FinalPreview.png"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Download the PDF from \u0027Click here to download the Preview PDF\u0027"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Verify all the details in the downloaded PDF.\nClick on \u0027Submit\u0027 in your income tax page."
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click \u0027Yes\u0027 to proceed....",
+          "replies": [
+            "Yes"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521711465,
+  "fallbackIntent": false,
+  "events": []
+}

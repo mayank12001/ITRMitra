@@ -1,0 +1,87 @@
+{
+  "id": "81d14acc-022a-4db6-a4b6-e10c945ceb41",
+  "name": "Tax Verification",
+  "auto": true,
+  "contexts": [
+    "Donations"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "TaxVerification",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Taxes Paid And Verification tab shows complete details and values are auto calculated"
+        },
+        {
+          "type": 3,
+          "platform": "facebook",
+          "lang": "en",
+          "imageUrl": "http://res.cloudinary.com/itrmitra/image/upload/v1521633833/TaxVerification.png"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Value in row D11(v) shows total taxes deducted from you."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "If excess tax is deducted, the value will be shown under row D13 (Refund)\nThis much amount will be refunded to your bank account."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Value in row D12 (Amount Payable) means, this amount of additional tax has to paid by you."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Pay the additional tax, if applicable, via any bank online.\nFill the details under \u0027Tax Details\u0027 tab in your income tax page."
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "All tax details will be auto calculated and shown under \u0027Tax Paid And Verification\u0027 tab"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Click \u0027Yes\u0027 to proceed....",
+          "replies": [
+            "Yes"
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521704346,
+  "fallbackIntent": false,
+  "events": []
+}

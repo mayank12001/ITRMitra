@@ -1,0 +1,48 @@
+{
+  "id": "2b9aaaff-c74e-468c-b9c3-429a2b6e4f5e",
+  "name": "GoodBye",
+  "auto": true,
+  "contexts": [
+    "eFiledReturn"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Please \u0027(Y)\u0027 our facebook page ITRMitra\nhttps://www.facebook.com/ITRMitra-553437891698924"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Power our effort to financially empower people with more free tools"
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Make a small contribution of Rs 10 or Rs 20 via UPI at manisuec@upi\nThanks"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1521706512,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "66b64017-787a-4029-b43a-04175bb1593b",
+    "data": [
+      {
+        "text": "Ok",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521700016
+  },
+  {
+    "id": "31812d86-7356-4a7a-a998-f163456b377c",
+    "data": [
+      {
+        "text": "Yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521700016
+  }
+]

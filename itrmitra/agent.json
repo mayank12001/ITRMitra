@@ -1,0 +1,44 @@
+{
+  "description": "",
+  "language": "en",
+  "disableInteractionLogs": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "invocationName": "test1",
+    "project": "itrmitra-8a964",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "1ceb4cac-5455-4996-b1c2-56f75e260955",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [
+      "83b65232-07c1-4377-9913-c76f0e28b084",
+      "592ec522-58c9-44dd-88b9-2359ebb5fb94",
+      "bfec5f65-9a9a-4263-9ca6-75b2f29a70cf",
+      "1ceb4cac-5455-4996-b1c2-56f75e260955"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true
+  },
+  "defaultTimezone": "Asia/Kathmandu",
+  "webhook": {
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": true
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "e25d79bd-20d1-4aa7-bd01-ac93708ebe6e",
+    "data": [
+      {
+        "text": "Ok",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521702017
+  },
+  {
+    "id": "2bbca3b9-beec-4452-8fcf-fb156b173499",
+    "data": [
+      {
+        "text": "Yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1521702017
+  }
+]
